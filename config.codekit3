@@ -9,6 +9,223 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/Assests/broken_spine_painting.jpg": {
+		"ft": 16384,
+		"iS": 75158,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/broken_spine_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/Frida Kahlo text.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Frida Kahlo text.docx",
+		"oF": 0
+		},
+	"/Assests/frida_monkey_portrait.jpg": {
+		"ft": 16384,
+		"iS": 508180,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/frida_monkey_portrait.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/frida_painting.jpg": {
+		"ft": 16384,
+		"iS": 46894,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/frida_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/frida_picture.jpg": {
+		"ft": 16384,
+		"iS": 87407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/frida_picture.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/heart_transplant.jpg": {
+		"ft": 16384,
+		"iS": 160455,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/heart_transplant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/hospital_painting.jpg": {
+		"ft": 16384,
+		"iS": 186269,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/hospital_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/Lobster_Two/LobsterTwo-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Lobster_Two/LobsterTwo-Bold.ttf",
+		"oF": 0
+		},
+	"/Assests/Lobster_Two/LobsterTwo-BoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Lobster_Two/LobsterTwo-BoldItalic.ttf",
+		"oF": 0
+		},
+	"/Assests/Lobster_Two/LobsterTwo-Italic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Lobster_Two/LobsterTwo-Italic.ttf",
+		"oF": 0
+		},
+	"/Assests/Lobster_Two/LobsterTwo-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Lobster_Two/LobsterTwo-Regular.ttf",
+		"oF": 0
+		},
+	"/Assests/Lobster_Two/OFL.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Lobster_Two/OFL.txt",
+		"oF": 0
+		},
+	"/Assests/palette-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Assests/palette-solid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Assests/palette.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Assests/palette.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Assests/sunburst_painting.jpg": {
+		"ft": 16384,
+		"iS": 89644,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/sunburst_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/Ubuntu/Ubuntu-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/Ubuntu-Bold.ttf",
+		"oF": 0
+		},
+	"/Assests/Ubuntu/Ubuntu-BoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/Ubuntu-BoldItalic.ttf",
+		"oF": 0
+		},
+	"/Assests/Ubuntu/Ubuntu-Italic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/Ubuntu-Italic.ttf",
+		"oF": 0
+		},
+	"/Assests/Ubuntu/Ubuntu-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/Ubuntu-Light.ttf",
+		"oF": 0
+		},
+	"/Assests/Ubuntu/Ubuntu-LightItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/Ubuntu-LightItalic.ttf",
+		"oF": 0
+		},
+	"/Assests/Ubuntu/Ubuntu-Medium.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/Ubuntu-Medium.ttf",
+		"oF": 0
+		},
+	"/Assests/Ubuntu/Ubuntu-MediumItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/Ubuntu-MediumItalic.ttf",
+		"oF": 0
+		},
+	"/Assests/Ubuntu/Ubuntu-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/Ubuntu-Regular.ttf",
+		"oF": 0
+		},
+	"/Assests/Ubuntu/UFL.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Assests/Ubuntu/UFL.txt",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -37,6 +254,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/design/Marguerita_sketchdesign.Sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/design/Marguerita_sketchdesign.Sketch",
+		"oF": 0
 		},
 	"/design/Marguerita_sketchdesign_blockedout.sketch": {
 		"cB": 0,
