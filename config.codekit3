@@ -9,17 +9,6 @@
 	],
 "creatorBuild": "32001",
 "files": {
-	"/Assests/broken_spine_painting.jpg": {
-		"ft": 16384,
-		"iS": 75158,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assests/broken_spine_painting.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/Assests/Frida Kahlo text.docx": {
 		"cB": 0,
 		"ft": 8192,
@@ -27,61 +16,6 @@
 		"oA": 0,
 		"oAP": "/Assests/Frida Kahlo text.docx",
 		"oF": 0
-		},
-	"/Assests/frida_monkey_portrait.jpg": {
-		"ft": 16384,
-		"iS": 508180,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assests/frida_monkey_portrait.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Assests/frida_painting.jpg": {
-		"ft": 16384,
-		"iS": 46894,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assests/frida_painting.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Assests/frida_picture.jpg": {
-		"ft": 16384,
-		"iS": 87407,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assests/frida_picture.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Assests/heart_transplant.jpg": {
-		"ft": 16384,
-		"iS": 160455,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assests/heart_transplant.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Assests/hospital_painting.jpg": {
-		"ft": 16384,
-		"iS": 186269,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assests/hospital_painting.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/Assests/Lobster_Two/LobsterTwo-Bold.ttf": {
 		"cB": 0,
@@ -142,17 +76,6 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
-		},
-	"/Assests/sunburst_painting.jpg": {
-		"ft": 16384,
-		"iS": 89644,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assests/sunburst_painting.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/Assests/Ubuntu/Ubuntu-Bold.ttf": {
 		"cB": 0,
