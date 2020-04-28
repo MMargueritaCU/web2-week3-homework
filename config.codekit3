@@ -9,6 +9,17 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/Assests/broken_spine_painting.jpg": {
+		"ft": 16384,
+		"iS": 45468,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/broken_spine_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/Assests/Frida Kahlo text.docx": {
 		"cB": 0,
 		"ft": 8192,
@@ -16,6 +27,61 @@
 		"oA": 0,
 		"oAP": "/Assests/Frida Kahlo text.docx",
 		"oF": 0
+		},
+	"/Assests/frida_monkey_portrait.jpg": {
+		"ft": 16384,
+		"iS": 452545,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/frida_monkey_portrait.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/frida_painting.jpg": {
+		"ft": 16384,
+		"iS": 40265,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/frida_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/frida_picture.jpg": {
+		"ft": 16384,
+		"iS": 58460,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/frida_picture.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/heart_transplant.jpg": {
+		"ft": 16384,
+		"iS": 117712,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/heart_transplant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Assests/hospital_painting.jpg": {
+		"ft": 16384,
+		"iS": 89900,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/hospital_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/Assests/Lobster_Two/LobsterTwo-Bold.ttf": {
 		"cB": 0,
@@ -76,6 +142,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/Assests/sunburst_painting.jpg": {
+		"ft": 16384,
+		"iS": 70845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assests/sunburst_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/Assests/Ubuntu/Ubuntu-Bold.ttf": {
 		"cB": 0,
@@ -158,6 +235,93 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/deploy/img/footer/palette_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/footer/palette_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/header/frida_kahlo_hero.jpg": {
+		"ft": 16384,
+		"iS": 312851,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/header/frida_kahlo_hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-1/frida_painting.jpg": {
+		"ft": 16384,
+		"iS": 98957,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/frida_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-2/frida_heart_transplant.jpg": {
+		"ft": 16384,
+		"iS": 278717,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/frida_heart_transplant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/frida_broken_spine.jpg": {
+		"ft": 16384,
+		"iS": 55667,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/frida_broken_spine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/frida_hospital.jpg": {
+		"ft": 16384,
+		"iS": 115621,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/frida_hospital.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/section-4/frida_sunburst_painting.jpg": {
+		"ft": 16384,
+		"iS": 100790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/frida_sunburst_painting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/frida_portrait.jpg": {
+		"ft": 16384,
+		"iS": 38141,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/frida_portrait.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -367,6 +531,81 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-5.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dev/scss/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -375,8 +614,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/styles.css",
-		"oF": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
