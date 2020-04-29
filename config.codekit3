@@ -374,14 +374,6 @@
 		"oAP": "/dev/header.html",
 		"oF": 0
 		},
-	"/dev/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/index.html",
-		"oF": 0
-		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -596,16 +588,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -618,14 +600,6 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/section-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-1.html",
-		"oF": 0
 		},
 	"/dev/section-1.kit": {
 		"cB": 0,
@@ -657,14 +631,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-4.html",
-		"oF": 0
-		},
-	"/dev/section-5.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-5.html",
 		"oF": 0
 		},
 	"/dev/section-5.kit": {

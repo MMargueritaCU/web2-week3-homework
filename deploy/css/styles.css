@@ -317,15 +317,45 @@ template {
 /* =============
     Base
 ============= */
+figure {
+  padding: 0;
+  margin: 0; }
+
 ul {
   padding: 0;
   margin: 0; }
   ul li {
     list-style: none; }
 
+.container-grid {
+  display: grid;
+  grid-template-columns: auto 1200px auto;
+  grid-template-areas: ". grid-content .";
+  min-height: 100vh; }
+  .container-grid .grid-content {
+    grid-area: grid-content;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+.section-title {
+  font-weight: 300; }
+
 /* =============
     Buttons
 ============= */
