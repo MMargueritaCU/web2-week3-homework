@@ -7,7 +7,67 @@
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". section-4 .";
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     >div{
         grid-area: section-4; 
+
+        article{
+            ul{
+                @include md{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "gallery-2 gallery-3";
+                }
+
+                @include xl{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                        "gallery-1 gallery-2
+                         gallery-1 gallery-3";
+                }
+
+                #gallery-1{
+                    @include md{
+                        grid-area: gallery-1;
+                        width: 100%;
+                    }
+
+                    @include xl{
+                        grid-area: gallery-1;
+                    }
+                }
+
+                #gallery-2{
+                    @include md{
+                        grid-area: gallery-2;
+                    }
+
+                    @include xl{
+                        grid-area: gallery-2;
+                    }
+                }
+
+                #gallery-3{
+                    @include md{
+                        grid-area: gallery-3;
+                    }
+
+                    @include xl{
+                        grid-area: gallery-3;
+                    }
+                }
+                
+                li{
+                    img{
+                        width: 100%;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
     }
 }

@@ -2,11 +2,23 @@
     Footer
 ============= */
 #footer{
+    background-color: $olive-green;
     display: grid;
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". footer .";
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     >div{
         grid-area: footer;
+        section{
+            article{
+                @include md{
+                    text-align: center;
+                }
+            }
+        }
     }
 }

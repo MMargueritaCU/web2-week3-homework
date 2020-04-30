@@ -11,7 +11,7 @@
 
 <body>
 
-    <header>
+    <header id="header">
         <section>
             <h1>Frida Kahlo</h1>
             <img src="img/header/frida_kahlo_hero.jpg" alt="Frida Kahlo Hero"/>
@@ -19,19 +19,23 @@
     </header>
     <section id="section-1">
             <div>
-                <article>
-                    <hr>
-                    <h2><i>"My painting carries with it the message of pain."</i></h2>
-                    <p>When Frida was 18, she was involved in a bus accident leaving her with illness and pain for the rest of her life.</p>
-                    <hr>
-                </article>
-                <aside>
-                    <img src="img/section-1/frida_painting.jpg" alt="Frida Painting"/>
-                </aside>
+                <section id="section-1-inside">
+                    <article id="article">
+                        <hr>
+                        <h2><i>"My painting carries with it the message of pain."</i></h2>
+                        <p>When Frida was 18, she was involved in a bus accident leaving her with illness and pain for the rest of her life.</p>
+                        <hr>
+                    </article>
+                    <aside id="aside">
+                        <img src="img/section-1/frida_painting.jpg" alt="Frida Painting"/>
+                    </aside>
+                </section>
             </div>
         </section>
     <section id="section-2">
-                <img src="img/section-2/frida_heart_transplant.jpg" alt="Frida Heart Transplant"/>
+                <div>
+                    <img src="img/section-2/frida_heart_transplant.jpg" alt="Frida Heart Transplant"/>
+                </div>
             </section>
     <section id="section-3">
                     <div>
@@ -46,16 +50,16 @@
                         <div>
                             <article>
                                 <ul>
-                                    <li><img src="img/section-4/frida_hospital.jpg" alt="Frida Hospital"/></li>
-                                    <li><img src="img/section-4/frida_broken_spine.jpg" alt="Frida Broken Spine"/></li>
-                                    <li><img src="img/section-4/frida_sunburst_painting.jpg" alt="Frida Sunburst Painting"/></li>
+                                    <li id="gallery-1"><img src="img/section-4/frida_hospital.jpg" alt="Frida Hospital"/></li>
+                                    <li id="gallery-2"><img src="img/section-4/frida_broken_spine.jpg" alt="Frida Broken Spine"/></li>
+                                    <li id="gallery-3"><img src="img/section-4/frida_sunburst_painting.jpg" alt="Frida Sunburst Painting"/></li>
                                 </ul>
                             </article>
                         </div>
                     </section>
     <section id="section-5">
                             <div>
-                                <section>
+                                <section id="section-5-inside">
                                     <img src="img/section-5/frida_portrait.jpg" alt="Frida Portrait"/>
                                 </section>
                                 <article>
@@ -70,7 +74,9 @@
     <footer id="footer">
                                 <div>
                                     <section>
-                                        <img src="img/footer/palette_logo.svg" alt="Palette Logo"/>
+                                        <article>
+                                            <img src="img/footer/palette_logo.svg" alt="Palette Logo"/>
+                                        </article>
                                         <p>1907-1954</p>
                                     </section>
                                 </div>
