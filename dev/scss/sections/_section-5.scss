@@ -11,19 +11,28 @@
         grid-template-columns: auto 1200px auto;
     }
 
+    @include md{
+        grid-template-columns: 10% auto 10%;
+    }
+
     >div{
         grid-area: section-5;
 
-        #section-5-first{
-            @include md{
-                display: grid;
-                grid-template-columns: 25% auto 25%;
-                grid-template-areas: ". section-5-first .";
+        @include xl{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "portrait paragraph";
+        }
+
+        #portrait{
+            @include xl{
+                grid-area: portrait;
             }
-            >div{
-                @include md{
-                    grid-area: section-5-first;
-                }
+        }
+
+        #paragraph{
+            @include xl{
+                grid-area: paragraph;
             }
         }
     }
