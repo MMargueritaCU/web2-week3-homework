@@ -13,11 +13,18 @@
 
     >div{
         grid-area: section-5;
+
+        #section-5-first{
+            @include md{
+                display: grid;
+                grid-template-columns: 25% auto 25%;
+                grid-template-areas: ". section-5-first .";
+            }
+            >div{
+                @include md{
+                    grid-area: section-5-first;
+                }
+            }
+        }
     }
 } 
-
-// #section-5-inside{
-//     @include md{
-//         grid-template-columns: 25% auto 25%;
-//     }
-// }
