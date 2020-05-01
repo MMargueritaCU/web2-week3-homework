@@ -25,6 +25,7 @@
         }
 
         #portrait{
+            text-align: center;
             @include xl{
                 grid-area: portrait;
             }
