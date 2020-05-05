@@ -17,7 +17,6 @@
         grid-area: section-1;
 
         #section-1-inside{
-            background-size: cover;
             height: 600px;
 
             @include md{
@@ -53,9 +52,11 @@
         
             #aside{
                 background-image: url('../img/section-1/frida_painting.jpg');
+                // background-size: cover;
+                background-position: center;
                 background-repeat: no-repeat;
-                height: 650px;
-                padding-bottom: 20px;
+                height: 550px;
+                // margin-bottom: 50px;
 
                 @include md{
                     grid-area: aside;

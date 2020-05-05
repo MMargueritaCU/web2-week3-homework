@@ -6,7 +6,6 @@
     display: grid;
     grid-template-columns: 0px auto 0px;
     grid-template-areas: ". header .";
-    background-size: cover;
     height: 700px;
     width: 100%;
 
@@ -16,10 +15,9 @@
 
     >section{
         grid-area: header;
-        // background-size: cover;
-        // height: 600px;
-        // width: 100%;
         background-image: url('../img/header/frida_kahlo_hero.jpg');
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
 
         h1{

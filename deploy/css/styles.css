@@ -384,7 +384,6 @@ textarea {
   display: grid;
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". header .";
-  background-size: cover;
   height: 700px;
   width: 100%; }
   @media (min-width: 1200px) {
@@ -393,6 +392,8 @@ textarea {
   #header > section {
     grid-area: header;
     background-image: url("../img/header/frida_kahlo_hero.jpg");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat; }
     #header > section h1 {
       padding-top: 200px;
@@ -431,7 +432,6 @@ textarea {
   #section-1 > div {
     grid-area: section-1; }
     #section-1 > div #section-1-inside {
-      background-size: cover;
       height: 600px; }
       @media (min-width: 768px) {
         #section-1 > div #section-1-inside {
@@ -454,9 +454,9 @@ textarea {
           padding-bottom: 5px; }
       #section-1 > div #section-1-inside #aside {
         background-image: url("../img/section-1/frida_painting.jpg");
+        background-position: center;
         background-repeat: no-repeat;
-        height: 650px;
-        padding-bottom: 20px; }
+        height: 550px; }
         @media (min-width: 768px) {
           #section-1 > div #section-1-inside #aside {
             grid-area: aside; } }
@@ -466,18 +466,18 @@ textarea {
 #section-2 {
   display: grid;
   grid-template-columns: 0px auto 0px;
-  grid-template-areas: ". section-2 .";
-  background-size: cover;
-  height: 700px;
-  padding-top: 30px;
-  padding-bottom: 10px; }
+  grid-template-areas: ". section-2 ."; }
   @media (min-width: 1200px) {
     #section-2 {
       grid-template-columns: auto 1200px auto; } }
   #section-2 > div {
     grid-area: section-2;
     background-image: url("../img/section-2/frida_heart_transplant.jpg");
-    background-repeat: no-repeat; }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-bottom: 20px; }
 
 /* =============
     Section 3
@@ -522,6 +522,7 @@ textarea {
           grid-template-areas: "gallery-1 gallery-2" "gallery-1 gallery-3"; } }
       #section-4 > div ul li {
         background-size: cover;
+        background-position: center;
         height: 500px; }
       #section-4 > div ul #gallery-1 {
         background-image: url("../img/section-4/frida_hospital.jpg"); }
