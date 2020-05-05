@@ -383,14 +383,20 @@ textarea {
 #header {
   display: grid;
   grid-template-columns: 0px auto 0px;
-  grid-template-areas: ". header ."; }
+  grid-template-areas: ". header .";
+  background-size: cover;
+  height: 700px;
+  width: 100%; }
   @media (min-width: 1200px) {
     #header {
       grid-template-columns: auto 1200px auto; } }
   #header > section {
-    grid-area: header; }
-    #header > section img {
-      width: 100%; }
+    grid-area: header;
+    background-image: url("../img/header/frida_kahlo_hero.jpg");
+    background-repeat: no-repeat; }
+    #header > section h1 {
+      padding-top: 200px;
+      text-align: center; }
 
 /* =============
     Footer
@@ -399,7 +405,9 @@ textarea {
   background-color: #505906;
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". footer ."; }
+  grid-template-areas: ". footer .";
+  padding-top: 10px;
+  padding-bottom: 10px; }
   @media (min-width: 1200px) {
     #footer {
       grid-template-columns: auto 1200px auto; } }
@@ -414,37 +422,62 @@ textarea {
 #section-1 {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-1 ."; }
+  grid-template-areas: ". section-1 .";
+  padding-top: 70px;
+  padding-bottom: 150px; }
   @media (min-width: 1200px) {
     #section-1 {
       grid-template-columns: auto 1200px auto; } }
   #section-1 > div {
     grid-area: section-1; }
-    @media (min-width: 768px) {
-      #section-1 > div #section-1-inside {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "aside article"; } }
-    @media (min-width: 768px) {
+    #section-1 > div #section-1-inside {
+      background-size: cover;
+      height: 600px; }
+      @media (min-width: 768px) {
+        #section-1 > div #section-1-inside {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-areas: "aside article"; } }
       #section-1 > div #section-1-inside #article {
-        grid-area: article; } }
-    @media (min-width: 768px) {
+        padding-bottom: 50px; }
+        @media (min-width: 768px) {
+          #section-1 > div #section-1-inside #article {
+            grid-area: article;
+            padding-top: 200px;
+            padding-left: 20px;
+            padding-right: 20px; } }
+        #section-1 > div #section-1-inside #article h2 {
+          padding-top: 5px;
+          padding-bottom: 5px; }
+        #section-1 > div #section-1-inside #article p {
+          padding-top: 5px;
+          padding-bottom: 5px; }
       #section-1 > div #section-1-inside #aside {
-        grid-area: aside; } }
+        background-image: url("../img/section-1/frida_painting.jpg");
+        background-repeat: no-repeat;
+        height: 650px;
+        padding-bottom: 20px; }
+        @media (min-width: 768px) {
+          #section-1 > div #section-1-inside #aside {
+            grid-area: aside; } }
 /* =============
     Section 2
 ============= */
 #section-2 {
   display: grid;
   grid-template-columns: 0px auto 0px;
-  grid-template-areas: ". section-2 ."; }
+  grid-template-areas: ". section-2 .";
+  background-size: cover;
+  height: 700px;
+  padding-top: 30px;
+  padding-bottom: 10px; }
   @media (min-width: 1200px) {
     #section-2 {
       grid-template-columns: auto 1200px auto; } }
   #section-2 > div {
-    grid-area: section-2; }
-    #section-2 > div img {
-      width: 100%; }
+    grid-area: section-2;
+    background-image: url("../img/section-2/frida_heart_transplant.jpg");
+    background-repeat: no-repeat; }
 
 /* =============
     Section 3
@@ -452,7 +485,8 @@ textarea {
 #section-3 {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-3 ."; }
+  grid-template-areas: ". section-3 .";
+  padding-bottom: 25px; }
   @media (min-width: 768px) {
     #section-3 {
       grid-template-columns: 10% auto 10%; } }
@@ -468,7 +502,8 @@ textarea {
 #section-4 {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-4 ."; }
+  grid-template-areas: ". section-4 .";
+  padding-bottom: 30px; }
   @media (min-width: 1200px) {
     #section-4 {
       grid-template-columns: auto 1200px auto; } }
@@ -492,7 +527,8 @@ textarea {
         background-image: url("../img/section-4/frida_hospital.jpg"); }
         @media (min-width: 768px) {
           #section-4 > div ul #gallery-1 {
-            grid-area: gallery-1; } }
+            grid-area: gallery-1;
+            height: 1000px; } }
         @media (min-width: 1200px) {
           #section-4 > div ul #gallery-1 {
             grid-area: gallery-1;
@@ -537,7 +573,14 @@ textarea {
       text-align: center; }
       @media (min-width: 1200px) {
         #section-5 > div #portrait {
-          grid-area: portrait; } }
+          grid-area: portrait;
+          padding-top: 20px;
+          padding-bottom: 50px; } }
+    @media (min-width: 768px) {
+      #section-5 > div #paragraph {
+        padding-top: 20px;
+        padding-bottom: 20px; } }
     @media (min-width: 1200px) {
       #section-5 > div #paragraph {
-        grid-area: paragraph; } }
+        grid-area: paragraph;
+        padding-top: 100px; } }

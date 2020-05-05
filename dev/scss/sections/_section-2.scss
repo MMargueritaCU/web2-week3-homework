@@ -6,6 +6,10 @@
     display: grid;
     grid-template-columns: 0px auto 0px;
     grid-template-areas: ". section-2 .";
+    background-size: cover;
+    height: 700px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 
     @include xl{
         grid-template-columns: auto 1200px auto;
@@ -13,10 +17,12 @@
 
     >div{
         grid-area: section-2;
+        background-image: url('../img/section-2/frida_heart_transplant.jpg');
+        background-repeat: no-repeat;
 
-        img{
-            width: 100%;
-        }
+        // img{
+        //     width: 100%;
+        // }
     }
 
 }

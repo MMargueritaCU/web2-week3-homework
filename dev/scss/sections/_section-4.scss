@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". section-4 .";
+    padding-bottom: 30px;
 
     @include xl{
         grid-template-columns: auto 1200px auto;
@@ -39,8 +40,10 @@
 
             #gallery-1{
                 background-image: url('../img/section-4/frida_hospital.jpg');
+            
                 @include md{
                     grid-area: gallery-1;
+                    height:1000px;
                 }
 
                 @include xl{

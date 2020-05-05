@@ -28,12 +28,20 @@
             text-align: center;
             @include xl{
                 grid-area: portrait;
+                padding-top: 20px;
+                padding-bottom: 50px;
             }
         }
 
         #paragraph{
+            @include md{
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
             @include xl{
                 grid-area: paragraph;
+                padding-top: 100px;
             }
         }
     }
