@@ -575,7 +575,8 @@ textarea {
 #section-5 {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-5 ."; }
+  grid-template-areas: ". section-5 .";
+  padding-bottom: 15px; }
   @media (min-width: 1200px) {
     #section-5 {
       grid-template-columns: auto 1200px auto;
@@ -589,7 +590,7 @@ textarea {
     @media (min-width: 1200px) {
       #section-5 > div {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 35% auto;
         grid-template-areas: "portrait paragraph"; } }
     #section-5 > div #portrait {
       text-align: center; }

@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". section-5 .";
+    padding-bottom: 15px;
 
     @include xl{
         grid-template-columns: auto 1200px auto;
@@ -22,7 +23,8 @@
 
         @include xl{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            // grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 35% auto;
             grid-template-areas: "portrait paragraph";
         }
 
