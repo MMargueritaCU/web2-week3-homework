@@ -4,33 +4,21 @@
 
 #section-3{
     display: grid;
-    grid-template-columns: 10px auto 10px;
+    grid-template-columns: 0px auto 0px;
     grid-template-areas: ". section-3 .";
-    padding-bottom: 25px;
-
-    @include md{
-        grid-template-columns: 10% auto 10%;
-    }
-
-    @include lg{
-        grid-template-columns: auto 750 auto;
-    }
 
     @include xl{
-        grid-template-columns: 30% auto 30%;
+        background-position: top;
     }
 
     >div{
-        border-top: 3px solid black;
-        border-bottom: 3px solid black;
         grid-area: section-3;
-        text-align: center;
-
-        article{
-            h3{
-                color: $olive-green;
-                padding: 10px 0;
-            }
-        }
+        background-image: url('../img/section-3/frida_heart_transplant.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 700px;
+        margin-bottom: 20px;
     }
+
 }

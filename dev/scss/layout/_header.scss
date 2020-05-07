@@ -3,32 +3,4 @@
 ============= */
 
 #header{
-    display: grid;
-    grid-template-columns: 0px auto 0px;
-    grid-template-areas: ". header .";
-    height: 700px;
-    width: 100%;
-
-    >section{
-        grid-area: header;
-        background-image: url('../img/header/frida_kahlo_hero.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        @include xl{
-            background-position: top;
-        }
-
-        h1{
-            padding-top: 400px;
-            text-align: center;
-            color: $white;
-
-            @include md{
-                text-align: left;
-                padding-left: 50px;
-            }
-        }
-    } 
-} 
+}

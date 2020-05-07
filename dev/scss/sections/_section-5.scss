@@ -6,48 +6,74 @@
     display: grid;
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". section-5 .";
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 
     @include xl{
         grid-template-columns: auto 1200px auto;
-        padding-top: 10px;
     }
 
-    @include md{
-        grid-template-columns: 10% auto 10%;
-        padding: 10px 0 20px;
-    }
-
-    >div{
+   >div{
         grid-area: section-5;
+        ul{
 
-        @include xl{
             display: grid;
-            // grid-template-columns: repeat(2, 1fr);
-            grid-template-columns: 35% auto;
-            grid-template-areas: "portrait paragraph";
-        }
+            grid-gap: 20px;
 
-        #portrait{
-            text-align: center;
-            @include xl{
-                grid-area: portrait;
-                padding-top: 20px;
-                padding-bottom: 50px;
-            }
-        }
-
-        #paragraph{
-            text-align: justify;
             @include md{
-                padding-top: 20px;
-                padding-bottom: 20px;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas: 
+                    "gallery-1 gallery-1"
+                    "gallery-2 gallery-3";
             }
 
             @include xl{
-                grid-area: paragraph;
-                padding-top: 120px;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas:
+                    "gallery-1 gallery-2"
+                    "gallery-1 gallery-3";
+            }
+
+            li{
+                background-size: cover;
+                background-position: center;
+                height: 500px;
+            }
+
+            #gallery-1{
+                background-image: url('../img/section-5/frida_hospital.jpg');
+            
+                @include md{
+                    grid-area: gallery-1;
+                    height:1000px;
+                }
+
+                @include xl{
+                    grid-area: gallery-1;
+                    height: 100%;
+                }
+            }
+
+            #gallery-2{
+                background-image: url('../img/section-5/frida_broken_spine.jpg');
+                @include md{
+                    grid-area: gallery-2;
+                }
+
+                @include xl{
+                    grid-area: gallery-2;
+                }
+            }
+
+            #gallery-3{
+                background-image: url('../img/section-5/frida_sunburst_painting.jpg');
+                @include md{
+                    grid-area: gallery-3;
+                }
+
+                @include xl{
+                    grid-area: gallery-3;
+                }
             }
         }
     }
-} 
+}

@@ -4,69 +4,31 @@
 
 #section-1{
     display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-areas: ". section-1 .";
-    padding-top: 70px;
-    padding-bottom: 150px;
+    grid-template-columns: 0px auto 0px;
+    grid-template-areas: ". header .";
+    height: 700px;
+    width: 100%;
 
-    @include xl{
-        grid-template-columns: auto 1200px auto;
-    }
+    >section{
+        grid-area: header;
+        background-image: url('../img/section-1/frida_kahlo_hero.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
-    >div{
-        grid-area: section-1;
-
-        #section-1-inside{
-            height: 600px;
-
-            @include md{
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-areas: "aside article";
-            }
-
-            #article{
-                padding-bottom: 50px;
-                text-align: center;
-
-                h2{
-                    border-top: 3px solid $olive-green;
-                }
-
-                p{
-                    border-bottom: 3px solid $olive-green;
-                }
-
-                @include md{
-                    grid-area: article;
-                    padding-top: 200px;
-                    padding-left: 20px;
-                    padding-right: 20px;
-                    text-align: left;
-                }
-
-                h2{
-                    padding-top: 10px;
-                    padding-bottom: 5px;
-                }
-
-                p{
-                    padding-top: 5px;
-                    padding-bottom: 10px;
-                }
-            }
-        
-            #aside{
-                background-image: url('../img/section-1/frida_painting.jpg');
-                background-position: center;
-                background-repeat: no-repeat;
-                height: 550px;
-
-                @include md{
-                    grid-area: aside;
-                }
-            }
+        @include xl{
+            background-position: top;
         }
 
-    }
-}
+        h1{
+            padding-top: 400px;
+            text-align: center;
+            color: $white;
+
+            @include md{
+                text-align: left;
+                padding-left: 50px;
+            }
+        }
+    } 
+} 
