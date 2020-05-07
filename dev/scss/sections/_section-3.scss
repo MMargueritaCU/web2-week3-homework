@@ -12,11 +12,25 @@
         grid-template-columns: 10% auto 10%;
     }
 
+    @include lg{
+        grid-template-columns: auto 750 auto;
+    }
+
     @include xl{
-        grid-template-columns: 20% auto 20%;
+        grid-template-columns: 30% auto 30%;
     }
 
     >div{
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
         grid-area: section-3;
+        text-align: center;
+
+        article{
+            h3{
+                color: $olive-green;
+                padding: 10px 0;
+            }
+        }
     }
 }

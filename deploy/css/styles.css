@@ -386,19 +386,23 @@ textarea {
   grid-template-areas: ". header .";
   height: 700px;
   width: 100%; }
-  @media (min-width: 1200px) {
-    #header {
-      grid-template-columns: auto 1200px auto; } }
   #header > section {
     grid-area: header;
     background-image: url("../img/header/frida_kahlo_hero.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
+    @media (min-width: 1200px) {
+      #header > section {
+        background-position: top; } }
     #header > section h1 {
-      padding-top: 200px;
-      text-align: center; }
-
+      padding-top: 400px;
+      text-align: center;
+      color: #fff; }
+      @media (min-width: 768px) {
+        #header > section h1 {
+          text-align: left;
+          padding-left: 50px; } }
 /* =============
     Footer
 ============= */
@@ -407,16 +411,16 @@ textarea {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". footer .";
-  padding-top: 10px;
-  padding-bottom: 10px; }
-  @media (min-width: 1200px) {
-    #footer {
-      grid-template-columns: auto 1200px auto; } }
+  padding-top: 20px;
+  color: #fff; }
   #footer > div {
     grid-area: footer; }
     @media (min-width: 768px) {
-      #footer > div section article {
+      #footer > div section > article {
         text-align: center; } }
+    #footer > div section > div {
+      text-align: right; }
+
 /* =============
     Section 1
 ============= */
@@ -439,19 +443,25 @@ textarea {
           grid-template-columns: repeat(2, 1fr);
           grid-template-areas: "aside article"; } }
       #section-1 > div #section-1-inside #article {
-        padding-bottom: 50px; }
+        padding-bottom: 50px;
+        text-align: center; }
+        #section-1 > div #section-1-inside #article h2 {
+          border-top: 3px solid #505906; }
+        #section-1 > div #section-1-inside #article p {
+          border-bottom: 3px solid #505906; }
         @media (min-width: 768px) {
           #section-1 > div #section-1-inside #article {
             grid-area: article;
             padding-top: 200px;
             padding-left: 20px;
-            padding-right: 20px; } }
+            padding-right: 20px;
+            text-align: left; } }
         #section-1 > div #section-1-inside #article h2 {
-          padding-top: 5px;
+          padding-top: 10px;
           padding-bottom: 5px; }
         #section-1 > div #section-1-inside #article p {
           padding-top: 5px;
-          padding-bottom: 5px; }
+          padding-bottom: 10px; }
       #section-1 > div #section-1-inside #aside {
         background-image: url("../img/section-1/frida_painting.jpg");
         background-position: center;
@@ -469,7 +479,7 @@ textarea {
   grid-template-areas: ". section-2 ."; }
   @media (min-width: 1200px) {
     #section-2 {
-      grid-template-columns: auto 1200px auto; } }
+      background-position: top; } }
   #section-2 > div {
     grid-area: section-2;
     background-image: url("../img/section-2/frida_heart_transplant.jpg");
@@ -490,11 +500,20 @@ textarea {
   @media (min-width: 768px) {
     #section-3 {
       grid-template-columns: 10% auto 10%; } }
+  @media (min-width: 992px) {
+    #section-3 {
+      grid-template-columns: auto 750 auto; } }
   @media (min-width: 1200px) {
     #section-3 {
-      grid-template-columns: 20% auto 20%; } }
+      grid-template-columns: 30% auto 30%; } }
   #section-3 > div {
-    grid-area: section-3; }
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    grid-area: section-3;
+    text-align: center; }
+    #section-3 > div article h3 {
+      color: #505906;
+      padding: 10px 0; }
 
 /* =============
     Section 4
@@ -559,10 +578,12 @@ textarea {
   grid-template-areas: ". section-5 ."; }
   @media (min-width: 1200px) {
     #section-5 {
-      grid-template-columns: auto 1200px auto; } }
+      grid-template-columns: auto 1200px auto;
+      padding-top: 10px; } }
   @media (min-width: 768px) {
     #section-5 {
-      grid-template-columns: 10% auto 10%; } }
+      grid-template-columns: 10% auto 10%;
+      padding: 10px 0 20px; } }
   #section-5 > div {
     grid-area: section-5; }
     @media (min-width: 1200px) {
@@ -577,11 +598,13 @@ textarea {
           grid-area: portrait;
           padding-top: 20px;
           padding-bottom: 50px; } }
-    @media (min-width: 768px) {
-      #section-5 > div #paragraph {
-        padding-top: 20px;
-        padding-bottom: 20px; } }
-    @media (min-width: 1200px) {
-      #section-5 > div #paragraph {
-        grid-area: paragraph;
-        padding-top: 100px; } }
+    #section-5 > div #paragraph {
+      text-align: justify; }
+      @media (min-width: 768px) {
+        #section-5 > div #paragraph {
+          padding-top: 20px;
+          padding-bottom: 20px; } }
+      @media (min-width: 1200px) {
+        #section-5 > div #paragraph {
+          grid-area: paragraph;
+          padding-top: 120px; } }

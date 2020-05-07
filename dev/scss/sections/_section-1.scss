@@ -27,36 +27,40 @@
 
             #article{
                 padding-bottom: 50px;
+                text-align: center;
+
+                h2{
+                    border-top: 3px solid $olive-green;
+                }
+
+                p{
+                    border-bottom: 3px solid $olive-green;
+                }
 
                 @include md{
                     grid-area: article;
                     padding-top: 200px;
                     padding-left: 20px;
                     padding-right: 20px;
+                    text-align: left;
                 }
 
-                // #hr-bottom{
-                //     padding-bottom: 20px;
-                // }
-
                 h2{
-                    padding-top: 5px;
+                    padding-top: 10px;
                     padding-bottom: 5px;
                 }
 
                 p{
                     padding-top: 5px;
-                    padding-bottom: 5px;
+                    padding-bottom: 10px;
                 }
             }
         
             #aside{
                 background-image: url('../img/section-1/frida_painting.jpg');
-                // background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
                 height: 550px;
-                // margin-bottom: 50px;
 
                 @include md{
                     grid-area: aside;

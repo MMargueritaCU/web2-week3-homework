@@ -9,10 +9,12 @@
 
     @include xl{
         grid-template-columns: auto 1200px auto;
+        padding-top: 10px;
     }
 
     @include md{
         grid-template-columns: 10% auto 10%;
+        padding: 10px 0 20px;
     }
 
     >div{
@@ -34,6 +36,7 @@
         }
 
         #paragraph{
+            text-align: justify;
             @include md{
                 padding-top: 20px;
                 padding-bottom: 20px;
@@ -41,7 +44,7 @@
 
             @include xl{
                 grid-area: paragraph;
-                padding-top: 100px;
+                padding-top: 120px;
             }
         }
     }

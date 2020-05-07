@@ -9,10 +9,6 @@
     height: 700px;
     width: 100%;
 
-    @include xl{
-        grid-template-columns: auto 1200px auto;
-    }
-
     >section{
         grid-area: header;
         background-image: url('../img/header/frida_kahlo_hero.jpg');
@@ -20,10 +16,19 @@
         background-position: center;
         background-repeat: no-repeat;
 
+        @include xl{
+            background-position: top;
+        }
+
         h1{
-            padding-top: 200px;
-            // padding-left: 100px;
+            padding-top: 400px;
             text-align: center;
+            color: $white;
+
+            @include md{
+                text-align: left;
+                padding-left: 50px;
+            }
         }
     } 
 } 
