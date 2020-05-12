@@ -8,8 +8,6 @@
     grid-template-areas: ". section-6 .";
     padding-bottom: 15px;
 
-  
-
     @include md{
         grid-template-columns: 10% auto 10%;
         padding: 10px 0 20px;
@@ -24,7 +22,6 @@
 
         @include xl{
             display: grid;
-            // grid-template-columns: repeat(2, 1fr);
             grid-template-columns: 35% auto;
             grid-template-areas: "portrait paragraph";
         }

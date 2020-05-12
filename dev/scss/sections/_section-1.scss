@@ -6,7 +6,6 @@
     display: grid;
     grid-template-columns: 0px auto 0px;
     grid-template-areas: ". header .";
-    height: 700px;
     width: 100%;
 
     >section{
@@ -15,19 +14,36 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        height: 371px;
+
+        @include md{
+            height: 512px;
+        }
 
         @include xl{
             background-position: top;
+            height: 800px;
         }
 
         h1{
-            padding-top: 400px;
-            text-align: center;
             color: $white;
+            font-size: rem-calc(48);
+            line-height: rem-calc(60);
+            padding-top: 200px;
+            text-align: center;
 
             @include md{
-                text-align: left;
+                font-size: rem-calc(69);
+                line-height: rem-calc(86);
+                padding-top: 250px;
                 padding-left: 50px;
+                text-align: left;
+            }
+
+            @include xl{
+                font-size: rem-calc(91);
+                line-height: rem-calc(114);
+                padding-top: 300px;
             }
         }
     } 

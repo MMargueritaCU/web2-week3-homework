@@ -327,6 +327,16 @@ ul {
   ul li {
     list-style: none; }
 
+.show-for-medium {
+  display: none; }
+  @media (min-width: 768px) {
+    .show-for-medium {
+      display: block; } }
+.show-for-large {
+  display: none; }
+  @media (min-width: 992px) {
+    .show-for-large {
+      display: block; } }
 .container-grid {
   display: grid;
   grid-template-columns: auto 1200px auto;
@@ -342,16 +352,20 @@ ul {
 /* =============
     Typography
 ============= */
-body {
-  font-family: 'Montserrat', sans-serif; }
-
 h1, h2, h3, h4 {
+  font-family: 'Lobster Two', cursive;
   margin: 0;
   padding: 0; }
 
 p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
   margin: 0;
   padding: 0; }
+
+a {
+  font-family: 'Ubuntu', sans-serif; }
 
 .section-title {
   font-weight: 300; }
@@ -377,9 +391,66 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  text-align: right; }
+  @media (min-width: 992px) {
+    #nav-container ul {
+      display: flex;
+      justify-content: flex-end; } }
+  #nav-container ul li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #nav-container ul li {
+        align-items: center;
+        margin: 0 30px 0 0; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: #505906;
+      text-decoration: none; }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      color: #000; }
+
 /* =============
     Header
 ============= */
+#header {
+  background-color: #fff;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  #header > div {
+    display: grid;
+    grid-template-areas: "logo burger" "nav nav";
+    grid-template-columns: 80% auto; }
+    #header > div section,
+    #header > div nav {
+      padding: 20px; }
+    #header > div #logo-container {
+      grid-area: logo; }
+    #header > div #burger-container {
+      align-items: center;
+      color: #505906;
+      display: flex;
+      grid-area: burger;
+      justify-content: flex-end; }
+      @media (min-width: 992px) {
+        #header > div #burger-container {
+          display: none !important; } }
+      #header > div #burger-container i {
+        cursor: pointer; }
+    #header > div #nav-container {
+      background-color: #ECECEC;
+      grid-area: nav;
+      display: none; }
+      @media (min-width: 992px) {
+        #header > div #nav-container {
+          display: block !important; } }
+    #header > div section i {
+      color: #505906; }
+
 /* =============
     Footer
 ============= */
@@ -405,25 +476,39 @@ textarea {
   display: grid;
   grid-template-columns: 0px auto 0px;
   grid-template-areas: ". header .";
-  height: 700px;
   width: 100%; }
   #section-1 > section {
     grid-area: header;
     background-image: url("../img/section-1/frida_kahlo_hero.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    height: 371px; }
+    @media (min-width: 768px) {
+      #section-1 > section {
+        height: 512px; } }
     @media (min-width: 1200px) {
       #section-1 > section {
-        background-position: top; } }
+        background-position: top;
+        height: 800px; } }
     #section-1 > section h1 {
-      padding-top: 400px;
-      text-align: center;
-      color: #fff; }
+      color: #fff;
+      font-size: 3rem;
+      line-height: 3.75rem;
+      padding-top: 200px;
+      text-align: center; }
       @media (min-width: 768px) {
         #section-1 > section h1 {
-          text-align: left;
-          padding-left: 50px; } }
+          font-size: 4.3125rem;
+          line-height: 5.375rem;
+          padding-top: 250px;
+          padding-left: 50px;
+          text-align: left; } }
+      @media (min-width: 1200px) {
+        #section-1 > section h1 {
+          font-size: 5.6875rem;
+          line-height: 7.125rem;
+          padding-top: 300px; } }
 /* =============
     Section 2
 ============= */
@@ -449,9 +534,25 @@ textarea {
         padding-bottom: 50px;
         text-align: center; }
         #section-2 > div #section-2-inside #article h2 {
-          border-top: 3px solid #505906; }
+          border-top: 3px solid #505906;
+          font-size: 1.5625rem;
+          line-height: 1.75rem;
+          padding-top: 10px;
+          padding-bottom: 5px; }
+          @media (min-width: 768px) {
+            #section-2 > div #section-2-inside #article h2 {
+              font-size: 2.1875rem;
+              line-height: 2.1875rem; } }
         #section-2 > div #section-2-inside #article p {
-          border-bottom: 3px solid #505906; }
+          border-bottom: 3px solid #505906;
+          font-size: 1rem;
+          line-height: 1.5625rem;
+          padding-top: 5px;
+          padding-bottom: 10px; }
+          @media (min-width: 768px) {
+            #section-2 > div #section-2-inside #article p {
+              font-size: 1.125rem;
+              line-height: 1.875rem; } }
         @media (min-width: 768px) {
           #section-2 > div #section-2-inside #article {
             grid-area: article;
@@ -459,12 +560,6 @@ textarea {
             padding-left: 20px;
             padding-right: 20px;
             text-align: left; } }
-        #section-2 > div #section-2-inside #article h2 {
-          padding-top: 10px;
-          padding-bottom: 5px; }
-        #section-2 > div #section-2-inside #article p {
-          padding-top: 5px;
-          padding-bottom: 10px; }
       #section-2 > div #section-2-inside #aside {
         background-image: url("../img/section-2/frida_painting.jpg");
         background-position: center;
@@ -508,7 +603,7 @@ textarea {
       grid-template-columns: auto 750 auto; } }
   @media (min-width: 1200px) {
     #section-4 {
-      grid-template-columns: 30% auto 30%; } }
+      grid-template-columns: 25% auto 25%; } }
   #section-4 > div {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
@@ -516,8 +611,17 @@ textarea {
     text-align: center; }
     #section-4 > div article h3 {
       color: #505906;
+      font-size: 1.6875rem;
+      line-height: 2.3125rem;
       padding: 10px 0; }
-
+      @media (min-width: 768px) {
+        #section-4 > div article h3 {
+          font-size: 2.375rem;
+          line-height: 3.125rem; } }
+      @media (min-width: 1200px) {
+        #section-4 > div article h3 {
+          font-size: 3.25rem;
+          line-height: 3.875rem; } }
 /* =============
     Section 5
 ============= */
