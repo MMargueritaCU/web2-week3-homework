@@ -605,8 +605,8 @@ textarea {
     #section-4 {
       grid-template-columns: 25% auto 25%; } }
   #section-4 > div {
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
     grid-area: section-4;
     text-align: center; }
     #section-4 > div article h3 {
