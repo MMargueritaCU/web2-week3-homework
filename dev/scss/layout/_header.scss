@@ -12,7 +12,7 @@
         display: grid;
         grid-template-areas: "logo burger"
                             "nav nav";
-        grid-template-columns: 80% auto;
+        grid-template-columns: 20% auto;
 
         @include lg{
             grid-template-areas: "nav logo";

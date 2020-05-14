@@ -427,7 +427,7 @@ textarea {
   #header > div {
     display: grid;
     grid-template-areas: "logo burger" "nav nav";
-    grid-template-columns: 80% auto; }
+    grid-template-columns: 20% auto; }
     @media (min-width: 992px) {
       #header > div {
         grid-template-areas: "nav logo"; } }
