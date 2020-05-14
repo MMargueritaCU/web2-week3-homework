@@ -1,8 +1,13 @@
 /* =============
     Base
 ============= */
+
+a{
+    text-decoration: none;
+    transition: 0.25s;
+}
 figure{
-    padding: 0;
+    padding: 0; 
     margin: 0;
 }
 

@@ -4,7 +4,7 @@
 #header{
     background-color: $white;
     left: 0;
-    position: fixed;
+    position: fixed; 
     top: 0;
     width: 100%;
 
@@ -14,6 +14,10 @@
                             "nav nav";
         grid-template-columns: 80% auto;
 
+        @include lg{
+            grid-template-areas: "nav logo";
+        }
+
         section,
         nav{
             padding: 20px;
@@ -21,6 +25,22 @@
 
         #logo-container {
             grid-area: logo;
+            padding: 10px;
+            display: flex;
+
+            @include lg{
+                justify-content: flex-end;
+            }
+
+            a:link,
+            a:visited{
+                color: $olive-green;
+            }
+
+            a:hover,
+            a:active{
+                color: $black;
+            }
         }
 
         #burger-container {
@@ -40,18 +60,11 @@
         }
 
         #nav-container {
-            background-color: $light-grey;
             grid-area: nav;
             display: none;
 
             @include lg{
                 display: block !important;
-            }
-        }
-
-        section {
-            i{
-                color: $olive-green;
             }
         }
     }
